@@ -1,20 +1,23 @@
-9598
+9603
 103/home/luxscintilla/my-files/learning-forkify/jonas-forkify/forkify-flowchart-part-2.png:Zone.Identifier1697971719068124600 0
 87/home/luxscintilla/my-files/learning-forkify/jonas-forkify/forkify-flowchart-part-2.png1697971719068124600 0
 103/home/luxscintilla/my-files/learning-forkify/jonas-forkify/forkify-flowchart-part-3.png:Zone.Identifier1697971719103125000 0
 98/home/luxscintilla/my-files/learning-forkify/jonas-forkify/forkify-architecture-recipe-loading.png1697971719014131300 0
 87/home/luxscintilla/my-files/learning-forkify/jonas-forkify/forkify-flowchart-part-3.png1697971719103125000 0
-74/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.html1701776694181347700 0
+74/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.html1702298648881932300 0
 89/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/jonas-forkify.3464ddca.js1701687576632288200 0
-85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.e37f48ea.js.map1701777088101347700 0
+85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.e37f48ea.js.map1702325776681932300 0
 81/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.62406edb.js1701687576632288200 0
 93/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/jonas-forkify.3464ddca.js.map1701687576642288200 0
 69/home/luxscintilla/my-files/learning-forkify/jonas-forkify/.gitignore1701688255582288200 0
 76/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/img/icons.svg1697971719195126200 0
 91/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/img/logo.png:Zone.Identifier1697971719216124700 0
-85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views/recipeView.js1701777088011347700 0
+76/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/helpers.js1702035742232782900 0
+85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views/recipeView.js1702325776611932300 0
+85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views/searchView.js1702304885331932300 0
+86/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views/resultsView.js1702324184061932300 0
 95/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/controller.js:Zone.Identifier1697971719259058800 0
-65/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js1701772095341347700 1
+65/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js1702033429472782900 1
 94/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/sass/_base.scss:Zone.Identifier1697971719286059800 0
 93/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/sass/main.scss:Zone.Identifier1697971719447065200 0
 77/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/sass/main.scss1697971719447065200 0
@@ -29,7 +32,7 @@
 93/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/resolve-from/index.js1701687500852288200 0
 84/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/resolve-from1701687500882288200 1
 110/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/modules/es.typed-array.some.js1701698361912288200 0
-81/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/logo.726d37a8.png1701776694081347700 0
+81/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/logo.726d37a8.png1702298648861932300 0
 112/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/modules/es.typed-array.reduce.js1701698361912288200 0
 110/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/modules/es.string.fontcolor.js1701698361892288200 0
 126/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/modules/esnext.async-iterator.async-dispose.js1701698361922288200 0
@@ -388,6 +391,7 @@
 102/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/match-all.js1701698362352288200 0
 103/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/trim-right.js1701698362622288200 0
 98/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/split.js1701698362512288200 0
+79/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views/view.js1702325466481932300 0
 95/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/at.js1701698361692288200 0
 96/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/sub.js1701698362532288200 0
 109/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/string/virtual/fontsize.js1701698362052288200 0
@@ -1440,7 +1444,7 @@
 108/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/typed-array/find.js1701698362022288200 0
 114/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/typed-array/to-spliced.js1701698362592288200 0
 117/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/typed-array/float32-array.js1701698362042288200 0
-82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/icons.21bad73c.svg1701776694191347700 0
+82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/icons.21bad73c.svg1702298648911932300 0
 112/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/array/virtual/values.js1701698362662288200 0
 108/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/array/last-index.js1701698362322288200 0
 123/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/typed-array/uint8-clamped-array.js1701698362642288200 0
@@ -1804,7 +1808,7 @@
 106/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/some.js1701698362502288200 0
 111/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/unique-by.js1701698362652288200 0
 115/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/filter-reject.js1701698361992288200 0
-81/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.e37f48ea.js1701777088101347700 0
+81/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.e37f48ea.js1702325776681932300 0
 108/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/splice.js1701698362512288200 0
 117/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/find-last-index.js1701698362012288200 0
 110/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/features/date/to-gmt-string.js1701698362562288200 0
@@ -2354,7 +2358,7 @@
 101/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/iterator/take.js1701698362552288200 0
 115/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/features/css-paint-api.js1701687502452288200 0
 121/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/features/css-text-align-last.js1701687502532288200 0
-82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/icons.dfd7a6db.svg1701776694171347700 0
+82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/icons.dfd7a6db.svg1702298648901932300 0
 115/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/features/trusted-types.js1701687504002288200 0
 120/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/features/css-matches-pseudo.js1701687502392288200 0
 119/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/features/input-placeholder.js1701687503102288200 0
@@ -3037,7 +3041,7 @@
 104/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/stable/weak-map/index.js1701698362222288200 0
 94/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/nth-check/package.json1701687500932288200 0
 97/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/watcher/README.md1701687501442288200 0
-84/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/favicon.8b2f57bf.png1701776694101347700 0
+84/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/favicon.8b2f57bf.png1702298648871932300 0
 101/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/workers/lib/Handle.js1701687501832288200 0
 105/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/update-browserslist-db/index.d.ts1701687500852288200 0
 95/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/math/imul.js1701698362162288200 0
@@ -3813,6 +3817,7 @@
 131/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/cjs/syntax/node/MediaFeature.cjs1701687503362288200 0
 130/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/cjs/syntax/node/index-parse.cjs1701687503252288200 0
 137/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo/node_modules/mdn-data/api/inheritance.json1701687503392288200 0
+75/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/config.js1702035651412782900 0
 125/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/cjs/syntax/node/String.cjs1701687503442288200 0
 121/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/lmdb/dependencies/lmdb/libraries/liblmdb/module.h1701687502522288200 0
 103/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/caniuse-lite/data/regions/PR.js1701687503592288200 0
@@ -3971,7 +3976,7 @@
 115/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/stable/string/virtual/trim-start.js1701698362632288200 0
 126/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/lib/syntax/scope/default.js1701687503682288200 0
 123/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@babel/highlight/node_modules/ansi-styles/readme.md1701687500782288200 0
-74/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/model.js1701772873271347700 0
+74/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/model.js1702324525301932300 0
 115/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/core/test/fixtures/parcel/yarn.lock1701687504612288200 0
 124/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/lib/syntax/scope/value.js1701687504002288200 0
 122/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/utils/test/replaceBundleReferences.test.js1701687504132288200 0
@@ -4565,7 +4570,7 @@
 102/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/css-tree/cjs/syntax/create.cjs1701687501422288200 0
 108/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/package-manager/package.json1701687503582288200 0
 121/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/transformer-babel/src/BabelTransformer.js1701687501992288200 0
-82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.f7626f62.css1701776694111347700 0
+82/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.f7626f62.css1702298648921932300 0
 102/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/es/typed-array/from.js1701698362082288200 0
 113/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@swc/helpers/cjs/_array_like_to_array.cjs1701687501232288200 0
 99/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/stable/array/map.js1701698362342288200 0
@@ -6374,7 +6379,7 @@
 85/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@lezer/common1701687501602288200 1
 118/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/csso/node_modules/css-tree/lib/syntax/function1701687504002288200 1
 116/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/watcher-linux-x64-glibc/watcher.node1701687501592288200 0
-71/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views1701772105691347700 1
+71/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/views1702304203151932300 1
 129/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/workers/test/integration/workerfarm/master-sum.js1701687501882288200 0
 91/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/css-tree/cjs/walker1701687501992288200 1
 108/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/string/virtual/index.js1701698362212288200 0
@@ -6806,7 +6811,7 @@
 112/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/diagnostic/test/markdown.test.js1701687503442288200 0
 104/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/resolver-default/LICENSE1701687501922288200 0
 104/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/abortcontroller-polyfill/LICENSE1701687501482288200 0
-63/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist1701777088101347700 1
+63/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist1702325776681932300 1
 107/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/update-browserslist-db/package.json1701687500812288200 0
 94/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo1701687502252288200 1
 106/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/array/virtual/with.js1701698362682288200 0
@@ -6913,7 +6918,7 @@
 133/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/scope1701687503872288200 1
 127/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax1701687503682288200 1
 101/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/htmlnano/lib/presets/safe.cjs1701687501712288200 0
-79/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/controller.js1701776323911347700 0
+79/home/luxscintilla/my-files/learning-forkify/jonas-forkify/src/js/controller.js1702324629021932300 0
 142/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/scope/value.js1701687503882288200 0
 152/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/syntax/pseudo/nth-last-child.js1701687503732288200 0
 126/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/modules/esnext.suppressed-error.constructor.js1701698361962288200 0
@@ -7394,7 +7399,7 @@
 101/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/utility-types/dist/index.d.ts1701687501512288200 0
 117/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/abortcontroller-polyfill/dist/cjs-ponyfill.js1701687501602288200 0
 80/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/chokidar1701687574362288200 1
-86/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.f7626f62.css.map1701776694111347700 0
+86/home/luxscintilla/my-files/learning-forkify/jonas-forkify/dist/index.f7626f62.css.map1702298648921932300 0
 114/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/core/src/requests/TargetRequest.js1701687504512288200 0
 104/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/core-js/full/string/match-all.js1701698362352288200 0
 95/home/luxscintilla/my-files/learning-forkify/jonas-forkify/node_modules/@parcel/core/src/public1701687504482288200 1
