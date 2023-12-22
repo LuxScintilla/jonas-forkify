@@ -8,9 +8,19 @@ const timeout = function (s) {
   });
 };
 
-export const getJSON = async function (url) {
+export const AJAX = async function (url, uploadData = undefined) {
   try {
-    const response = await Promise.race([fetch(url), timeout(TIMEOUT_SEC)]);
+    const fetchPro = uploadData
+      ? fetch(url, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(uploadData),
+        })
+      : fetch(url);
+
+    const response = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
     const data = await response.json();
 
     if (response.ok === false) {
@@ -23,26 +33,42 @@ export const getJSON = async function (url) {
   }
 };
 
-export const sendJSON = async function (url, uploadData) {
-  try {
-    const response = await Promise.race([
-      fetch(url, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(uploadData),
-      }),
-      timeout(TIMEOUT_SEC),
-    ]);
-    const data = await response.json();
+// export const getJSON = async function (url) {
+//   try {
+//     const fetchPro = fetch(url);
+//     const response = await Promise.race([fetchPro, timeout(TIMEOUT_SEC)]);
+//     const data = await response.json();
 
-    if (response.ok === false) {
-      throw new Error(`${data.message} (status: ${response.status})`);
-    }
+//     if (response.ok === false) {
+//       throw new Error(`${data.message} (status: ${response.status})`);
+//     }
 
-    return data;
-  } catch (error) {
-    throw error;
-  }
-};
+//     return data;
+//   } catch (error) {
+//     throw error;
+//   }
+// };
+
+// export const sendJSON = async function (url, uploadData) {
+//   try {
+//     const response = await Promise.race([
+//       fetch(url, {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(uploadData),
+//       }),
+//       timeout(TIMEOUT_SEC),
+//     ]);
+//     const data = await response.json();
+
+//     if (response.ok === false) {
+//       throw new Error(`${data.message} (status: ${response.status})`);
+//     }
+
+//     return data;
+//   } catch (error) {
+//     throw error;
+//   }
+// };
